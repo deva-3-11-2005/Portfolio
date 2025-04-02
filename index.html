@@ -4,6 +4,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <title>Resume - Deva R</title>  
     <style>  
+        .download-btn {
+            background-color: #E74C3C; /* Red color */
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .download-btn:hover {
+            background-color: #C0392B; /* Darker red when hovered */
+        }
         * {  
             margin: 10;  
             padding: 10;  
@@ -41,9 +54,13 @@
             margin-bottom: 5px;  
         }  
         .sidebar h1 {  
-            font-size: 22px;  
-            margin-bottom: 15px;  
-        }  
+            font-size: 26px;  
+            font-weight: bold;  
+            color: #FFD700; /* Gold Color for a premium look */  
+            text-transform: uppercase;   
+            letter-spacing: 3px; 
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Adds a soft shadow */
+        }
         .sidebar p {  
             font-size: 14px;  
             opacity: 0.8;  
@@ -192,6 +209,11 @@
     </div>  
 
 </div>
+    <div style="text-align: center; margin-top: 20px;">
+    <a href="resume.pdf" download="Deva_R_Resume.pdf">
+        <button class="download-btn">Download Resume</button>
+    </a>
+    </div>
 
 </body>  
 </html>
