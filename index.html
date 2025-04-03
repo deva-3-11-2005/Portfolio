@@ -4,6 +4,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <title>Resume - Deva R</title>  
     <style>  
+        * {  
+            margin: 0;  
+            padding: 0;  
+            box-sizing: border-box;  
+            font-family: Arial, sans-serif;  
+        }  
+        body {  
+            background: black;  
+            display: flex; 
+            flex - direction:column;
+            justify-content: center;  
+            align-items: center;  
+            justify-content: center;
+            min-height: 100vh;
+            padding-bottom: 50px;  
+        }  
+        .resume-container {  
+            display: flex;  
+            flex - direction:row;
+            width: 800px;  
+            background:white;  
+            box-shadow: 5px 5px 10px rgba(grey);  
+            margin-bottom: 20px;
+        }  
+        .download-container {
+            width: 100%;
+            text-align: center;
+            margin-top: auto;
+            padding: 20px;
+        }
         .download-btn {
             background-color: #E74C3C; /* Red color */
             color: white;
@@ -18,33 +48,7 @@
         }
         .download-btn:hover {
             background-color: #C0392B; /* Darker red when hovered */
-        }
-        * {  
-            margin: 0;  
-            padding: 0;  
-            box-sizing: border-box;  
-            font-family: Arial, sans-serif;  
-        }  
-        body {  
-            background: black;  
-            display: flex;  
-            justify-content: center;  
-            align-items: center;  
-            justify-content: center;
-            min-height: 100vh;
-            padding-bottom: 50px;  
-        }  
-        .resume-container {  
-            display: flex;  
-            flex - direction:row;
-            width: 800px;  
-            background:white;  
-            box-shadow: 5px 5px 10px rgba(grey);  
-        }  
-        .download-container {
-            text-align: center;
-            margin-top: 10px;
-        }
+        } 
         /* Sidebar */  
         .sidebar {  
             width: 40%;  
@@ -218,12 +222,13 @@
     </div>  
 
 </div>
-    <div style="text-align: center; margin-top: 20px;">
-        <div class="download-container">
-            <a href="resume.pdf" download="Deva_R_Resume.pdf">
-                <button class="download-btn">Download Resume</button>
-            </a>
-        </div>
+    <div class="resume-container">
+        <!-- Resume content remains unchanged -->
+    </div>
+
+    <!-- Download Button at the Bottom -->
+    <div class="download-container">
+        <a href="resume.pdf" download="Deva_R_Resume.pdf" class="download-btn">Download Resume</a>
     </div>
 </div>
 </body>  
