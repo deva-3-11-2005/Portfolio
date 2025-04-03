@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume - Deva R</title>
-    <style>
+<!DOCTYPE html>  <html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Resume - Deva R</title>  
+    <style>  
         .download-btn {
             background-color: #E74C3C; /* Red color */
             color: white;
@@ -20,43 +19,212 @@
         .download-btn:hover {
             background-color: #C0392B; /* Darker red when hovered */
         }
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-        body {
-            background: black;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        * {  
+            margin: 0;  
+            padding: 0;  
+            box-sizing: border-box;  
+            font-family: Arial, sans-serif;  
+        }  
+        body {  
+            background: black;  
+            display: flex;  
+            justify-content: center;  
+            align-items: center;  
             justify-content: center;
             min-height: 100vh;
-            padding-bottom: 50px;
-        }
-        .resume-container {
-            display: flex;
-            flex-direction: row;
-            width: 800px;
-            background: white;
-            box-shadow: 5px 5px 10px grey;
-            margin-bottom: 20px;
-        }
+            padding-bottom: 50px;  
+        }  
+        .resume-container {  
+            display: flex;  
+            flex - direction:row;
+            width: 800px;  
+            background:white;  
+            box-shadow: 5px 5px 10px rgba(grey);  
+        }  
         .download-container {
             text-align: center;
             margin-top: 10px;
         }
-    </style>
-</head>
-<body>
-    <div class="resume-container">
-        <!-- Resume content remains unchanged -->
-    </div>
+        /* Sidebar */  
+        .sidebar {  
+            width: 40%;  
+            background: rgb(#2C3E50);  
+            color: rgb(#Ffffff);  
+            padding: 20px;  
+            text-align: center;  
+            border-left: 20px solid #000000;
+        }  
+        .profile img {  
+            width: 200px;  
+            height: 200px;  
+            border-radius: 20px;  
+            object-fit: cover;  
+            border: 2px solid black;  
+            margin-bottom: 5px;  
+        }  
+        .sidebar h1 {  
+            font-size: 26px;  
+            font-weight: bold;  
+            color: #FFD700; /* Gold Color for a premium look */  
+            text-transform: uppercase;   
+            letter-spacing: 3px; 
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Adds a soft shadow */
+        }
+        .sidebar p {  
+            font-size: 14px;  
+            opacity: 0.8;  
+        }  
+        .contact, .skills, .education, .language {  
+            text-align: left;  
+            margin-top: 20px;  
+        }  
+        .contact p, .skills ul, .education p, .language p {  
+            font-size: 14px;  
+            margin-bottom: 8px;  
+        }  
+        .skills ul {  
+            list-style: none;  
+        }  
+        .skills ul li {  
+            margin-bottom: 5px;  
+        }  
+        /* Main Content */  
+        .main-content {  
+            width: 65%;  
+            background: #ECF0F1;
+            padding: 30px;  
+        }  
+        .main-content h1 {  
+            font-size: 30px;  
+            letter-spacing: 5px;  
+        }  
+        .main-content h2 {  
+            font-size: 16px;  
+            color: #666;  
+            margin-top: 5px;  
+        }  
+        .section {  
+            margin-top: 20px;  
+        }  
+        .section h3 {  
+            color: black;  
+            font-size: 18px;  
+            margin-bottom: 10px;  
+            text-transform: uppercase;  
+        }  
+        .experience-item {  
+            margin-bottom: 20px;  
+        }  
+        .experience-item h4 {  
+            font-size: 16px;  
+            color: black;  
+        }  
+        .experience-item p {  
+            font-size: 14px;  
+            color: #666;  
+        }  
+        .experience-item ul {  
+            padding-left: 20px;  
+            margin-top: 5px;  
+        }  
+        .experience-item ul li {  
+            font-size: 14px;  
+            color: #555;  
+            margin-bottom: 5px;  
+        }  
+    </style>  
+</head>  
+<body>  <div class="resume-container">  
+      
+    <!-- Sidebar -->  
+    <div class="sidebar">  
+        <div class="profile">  
+            <img src="IMG_20250402_125817.jpg"alt="Profile Picture">  
+        </div>  
+        <h1>DEVA R</h1>  
+        <p>COLLEGE STUDENT</p>  
+          
+        <div class="contact">  
+            <p>8056270309 </p>  
+            <p>📧 deva705d@gmail.com</p>  
+            <p>📍No.26,Lakshmiamman koil, puzhal Chennai-66 </p>  
+        </div>  
 
-    <!-- Download Button at the Bottom -->
-    <div class="download-container">
-        <a href="resume.pdf" download="Deva_R_Resume.pdf" class="download-btn">Download Resume</a>
+        <div class="skills">  
+            <h3>Skills</h3>  
+            <ul>  
+                <li>C</li>  
+                <li>C++</li>  
+                <li>PYTHON</li>  
+                <li>HTML</li>  
+                <li>CSS</li>  
+                <li>PHOTOSHOP</li>  
+                <li>DEBUGGING</li>  
+                <li>Strong Communication</li>  
+            </ul>  
+        </div>  
+
+        <div class="education">  
+            <h3>Education</h3>  
+            <p><strong>ST.Anthony's Matriculation higher secondary School </strong><br>Really Great High School (2021-2023)</p>  
+            <p><strong>Thiruthangal nadar college</strong><br> University Of Madras (2023 - 2026)</p>  
+        </div>  
+
+        <div class="language">  
+            <h3>Language</h3>  
+            <p>English</p>  
+            <p>Tamil</p>  
+          
+        </div>  
+    </div>  
+
+    <!-- Main Content -->  
+    <div class="main-content">  
+        <h1>DEVA R</h1>  
+        <h2>COLLEGE STUDENT</h2>  
+
+        <div class="section">  
+            <h3>Professional Summary</h3>  
+            <p>Highly motivated and detail-oriented computer science student with a passion for building innovative software solutions. Proficient in programming languages such as Java, Python, and C++, with experience in developing projects using machine learning, data analysis, and web development. Strong understanding of computer science fundamentals, including data structures, algorithms, and computer systems..</p>  
+        </div>  
+
+        <div class="section">  
+            <h3>Experience</h3>  
+              
+            <div class="experience-item">  
+                <h4>MG Car wash</h4>  
+                <p>Really Great Showroom | 2023 -2024 </p>  
+                <ul>  
+                    <li>I have Experience to Managing an Accounting Details</li>  
+                    <li> Iam Capable to budget management</li>  
+                    <li>Iam Capable to Run the Showroom by Myself</li>  
+                </ul>  
+            </div>  
+
+              
+        </div>  
+        <div class="section">  
+            <h3>Hobbies</h3>  
+            <div class="Hobbies-item">  
+                <ul>  
+                    <li>Watching Movies</li>  
+                    <li>Intersted to discover new things</li>  
+                    <li>Learning Programming Languages</li>  
+                    <li>Playing games</li>  
+                    <li>Interested To Earning Skills</li>  
+                </ul>  
+            </div>  
+        </div>  
+    </div>  
+
+</div>
+    <div style="text-align: center; margin-top: 20px;">
+        <div class="download-container">
+            <a href="resume.pdf" download="Deva_R_Resume.pdf">
+                <button class="download-btn">Download Resume</button>
+            </a>
+        </div>
     </div>
-</body>
+</div>
+</body>  
 </html>
